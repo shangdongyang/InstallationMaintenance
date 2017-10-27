@@ -1,8 +1,12 @@
 #coding:utf8
 
-import numpy as np
+"""
+描述 用于读取test输出的装维人员属性数据，并将其归一化后用Kmeans聚类
+版本 0.1
+作者 Shangdong
+"""
+
 from sklearn import preprocessing
-from time import time
 import numpy as np
 import matplotlib.pyplot as plt
 plt.rcParams['font.sans-serif'] = ['Microsoft YaHei']
